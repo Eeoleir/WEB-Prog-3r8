@@ -15,12 +15,12 @@ import {
 function Settings() {
   return (
     <section
-      className="h-screen flex-col overflow-y-auto"
+      className="h-screen flex-col overflow-y-auto scrollbar-hide"
       style={{ background: "#141414" }}
     >
       {/* header */}
       <nav
-        className="header flex items-center justify-between text-white h-32 px-4"
+        className="header flex items-center justify-between text-white h-24 px-4"
         style={{ background: "#09090B" }}
       >
         <div className="flex items-center space-x-12">
@@ -134,7 +134,7 @@ function Settings() {
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
           </div>
-          <h1 className="text-white font-normal text-2xl font-bold mt-4">
+          <h1 className="text-white font-medium text-2xl mt-4">
             Organizer Name
           </h1>
           <div className="flex flex-row items-center mt-4 w-full">
