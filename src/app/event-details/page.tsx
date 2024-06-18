@@ -402,7 +402,10 @@ function eventDetails() {
                         className="circle rounded-full h-14 w-14 flex items-center justify-center"
                         style={{ background: "#EAB308" }}
                       >
-                        <FaMapPin className="w-8 h-8" />
+                        <FaMapPin
+                          className="w-8 h-8"
+                          style={{ color: "white" }}
+                        />
                       </div>
                       <div className="ml-6">
                         <h3 className="eventLocTitle text-gray-500">
@@ -455,7 +458,10 @@ function eventDetails() {
                         className="circle rounded-full h-14 w-14 flex items-center justify-center"
                         style={{ background: "#EAB308" }}
                       >
-                        <FaMapPin className="w-8 h-8" />
+                        <FaMapPin
+                          className="w-8 h-8"
+                          style={{ color: "white" }}
+                        />
                       </div>
                       <div className="ml-6">
                         <h3 className="eventLocTitle text-gray-500">
